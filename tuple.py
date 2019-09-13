@@ -30,3 +30,13 @@ print(tup.count(10))  #o/p=1; because there is only one '10'
 
 #finding index value of value on tuple
 print(tup.index("rc"))  #index value within double quotes;
+
+
+#conversion from list to tuple
+lst=[10,20,'rc']
+print(type(lst))
+lst=tuple(tup)
+print(type(tup)) #o/p= class lst
+                 #     class tuple
+
+ print(tup)   #o/p=(10,20,50,65,'rc')
