@@ -20,3 +20,7 @@ s={10,20,30}
 s.remove(20)  #'20' will be removed
 print(s)   #o/p={10, 30}
 
+#examples
+s={22,11,44,33}
+s.update(6,6)  #6 adds into set only one times 
+print(s)   #o/p={22,6,44,33}
