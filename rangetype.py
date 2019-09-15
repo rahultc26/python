@@ -14,3 +14,6 @@ for i in range(1,15):
     
 for i in range(0,10,2):
     print(i)  #displays elements from '0' to '10' by skipping elements in order of two
+    
+for i in range(0,15,2)
+    print(i) #displays numbers from 0 to 15 by skipping in the order of 3
