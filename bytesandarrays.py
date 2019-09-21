@@ -17,3 +17,6 @@ print(type(b1))  #converted to bytesarrays
 #modifying
 b1[2]=111
    #there is no issues in o/p
+   
+ #example
+ b1[3]=121  #again there is no issues in o/p
