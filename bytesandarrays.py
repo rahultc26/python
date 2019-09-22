@@ -7,8 +7,7 @@ print(type(lst))   #class list
 b=bytes(lst)
 print(type(b))  #coverted to type bytes
 
-#b[2]=12
-#Note:we can not modify the bytes but we can modify using 'byte arrays'
+b[2]=12    #Note:we can not modify the bytes but we can modify using 'byte arrays'
 
 #converting lst to bytearray
 b1=bytearray(lst)
